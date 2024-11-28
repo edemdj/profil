@@ -10,6 +10,13 @@ const projects = [
     liveLink: "https://example.com"
   },
   {
+    title: "",
+    description: "La console est le premier segment du projet AirBnB à l'école Holberton qui couvrira collectivement les concepts fondamentaux de la programmation de niveau supérieur. L'objectif du projet AirBnB est de déployer éventuellement sur notre serveur une copie simple du site Web AirBnB (HBnB). Un interpréteur de commande est créé dans ce segment pour gérer les objets pour le site Web AirBnB(HBnB).",
+    image: "src/image/Hbnb database.png",
+    technologies: ["Python", "Flask", "SQLAlchemy", "API REST"],
+    githubLink: "https://github.com/edemdj/holbertonschool-AirBnB_clone_v3.git",
+  },
+  {
     title: "PORTOLIO_PRO",
     description: "Mon projet, PortfolioPro, est une plateforme innovante permettant aux utilisateurs de créer, partager et découvrir des portfolios inspirants dans divers domaines. Conçu pour les créatifs et les professionnels, PortfolioPro facilite la mise en valeur des compétences et des réalisations, tout en mettant en avant la distinction propre à chaque individu grâce à ses accomplissements.",
     image: "src/image/PORTFOLIO_PRO.jpg",
