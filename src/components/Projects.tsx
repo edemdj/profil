@@ -10,7 +10,7 @@ const projects = [
     liveLink: "https://example.com"
   },
   {
-    title: "",
+    title: "HBnB SERVEUR",
     description: "La console est le premier segment du projet AirBnB à l'école Holberton qui couvrira collectivement les concepts fondamentaux de la programmation de niveau supérieur. L'objectif du projet AirBnB est de déployer éventuellement sur notre serveur une copie simple du site Web AirBnB (HBnB). Un interpréteur de commande est créé dans ce segment pour gérer les objets pour le site Web AirBnB(HBnB).",
     image: "src/image/Hbnb database.png",
     technologies: ["Python", "Flask", "SQLAlchemy", "API REST"],
