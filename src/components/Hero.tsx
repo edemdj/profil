@@ -8,7 +8,7 @@ export function Hero() {
         <img
           src={photoProfil}
           alt="Photo de profil"
-          className="w-48 h-48 rounded-full mx-auto mb-8 shadow-lg"
+          className="w-56 h-56 sm:w-72 sm:h-72 md:w-96 md:h-96 mx-auto mb-8 shadow-2xl border-4 border-white object-cover"
         />
         <h1 className="text-5xl font-bold text-gray-800 mb-6">
           Développeur web Full Stack
