@@ -18,7 +18,7 @@ const projects = [
   },
   {
     title: "PORTOLIO_PRO",
-    description: "Mon projet, PortfolioPro, est une plateforme innovante permettant aux utilisateurs de créer, partager et découvrir des portfolios inspirants dans divers domaines. Conçu pour les créatifs et les professionnels, PortfolioPro facilite la mise en valeur des compétences et des réalisations, tout en mettant en avant la distinction propre à chaque individu grâce à ses accomplissements.",
+    description: "Mon projet, PortfolioPro, est une plateforme innovante permettant aux utilisateurs de créer, partager et découvrir des portfolios inspirants dans divers domaines. Conçu pour les créatifs et les professionnels, PortfolioPro facilite la mise en valeur des compétences et des réalisations, tout en mettant en avant la distinction propre à chaque individu grâce à ses accomplissements.(Ce projet est en cours de développement et sera bientôt disponible)",
     image: "src/image/PORTFOLIO_PRO.jpg",
     technologies: ["JavaScript", "HTML", "CSS", "React", "Node.js", "Express", "SQL"],
     githubLink: "https://github.com/edemdj/social-network.git",
