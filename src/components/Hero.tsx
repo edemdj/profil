@@ -1,12 +1,12 @@
-
 import { ArrowDown } from 'lucide-react';
+import photoProfil from '../image/profil.jpg';
 
 export function Hero() {
   return (
     <section id="about" className="min-h-screen flex items-center justify-center bg-gradient-to-br from-blue-50 to-indigo-50 pt-16">
       <div className="max-w-4xl mx-auto px-4 py-16 text-center">
         <img
-          src="src/image/profil.jpg"
+          src={photoProfil}
           alt="Photo de profil"
           className="w-48 h-48 rounded-full mx-auto mb-8 shadow-lg"
         />
