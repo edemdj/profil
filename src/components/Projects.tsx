@@ -7,6 +7,14 @@ import portfolioPro from '../image/PORTFOLIO_PRO.jpg';
 
 const projects = [
   {
+    title: "Farines Diana",
+    description: "Développer un site web professionnel pour promouvoir les produits artisanaux de Farines Diana, une entreprise spécialisée dans la fabrication et la vente de farines de qualité. Le site devait améliorer la présence en ligne de l'entreprise, permettre d'attirer de nouveaux clients et présenter les produits de manière esthétique et fonctionnelle",
+    image: "https://farinesdiana.com/images/catalogue.JPG",
+    technologies: ["HTML", "CSS", "JavaScript" , "TypeScript",],
+    githubLink: "https://github.com/edemdj/profil",
+    liveLink: "https://farinesdiana.com"
+  },
+  {
     title: "HBnB Evolution: Part 3 (Client)",
     description: "Dans cette phase, j'ai conçu et développé une interface utilisateur interactive et fonctionnelle en utilisant les technologies frontales suivantes : HTML5, CSS3 et JavaScript ES6. Mon objectif principal était d'assurer une expérience utilisateur fluide et intuitive, tout en garantissant une intégration harmonieuse avec les services back-end déjà développés.",
     image: hbnbClient,
@@ -29,14 +37,7 @@ const projects = [
     githubLink: "https://github.com/edemdj/social-network.git",
     liveLink: "https://youtu.be/AQitjy50ZM0"
   },
-  {
-    title: "Farines Diana",
-    description: "Développer un site web professionnel pour promouvoir les produits artisanaux de Farines Diana, une entreprise spécialisée dans la fabrication et la vente de farines de qualité. Le site devait améliorer la présence en ligne de l'entreprise, permettre d'attirer de nouveaux clients et présenter les produits de manière esthétique et fonctionnelle",
-    image: "https://farinesdiana.com/images/catalogue.JPG",
-    technologies: ["HTML", "CSS", "JavaScript" , "TypeScript",],
-    githubLink: "https://github.com/edemdj/profil",
-    liveLink: "https://farinesdiana.com"
-  }
+  
 
 ];
 
