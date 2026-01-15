@@ -8,7 +8,7 @@ export function Hero() {
       className="min-h-screen flex items-center justify-center bg-gradient-to-b from-black/40 to-black/60 relative bg-no-repeat bg-cover"
       style={{
         backgroundImage: `url(${photoProfil})`,
-        backgroundSize: '80%', // Fond toujours couvert sans déformation.
+        backgroundSize: '90%', // Fond toujours couvert sans déformation.
         backgroundPosition: 'center top', // Centré par défaut.
       }}
     >
