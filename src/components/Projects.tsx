@@ -28,7 +28,16 @@ const projects = [
     technologies: ["JavaScript", "HTML", "CSS", "React", "Node.js", "Express", "SQL"],
     githubLink: "https://github.com/edemdj/social-network.git",
     liveLink: "https://youtu.be/AQitjy50ZM0"
+  },
+  {
+    title: "Farines Diana",
+    description: "Développer un site web professionnel pour promouvoir les produits artisanaux de Farines Diana, une entreprise spécialisée dans la fabrication et la vente de farines de qualité. Le site devait améliorer la présence en ligne de l'entreprise, permettre d'attirer de nouveaux clients et présenter les produits de manière esthétique et fonctionnelle",
+    image: "https://farinesdiana.com/images/catalogue.JPG",
+    technologies: ["HTML", "CSS", "JavaScript" , "TypeScript",],
+    githubLink: "https://github.com/edemdj/profil",
+    liveLink: "https://farinesdiana.com"
   }
+
 ];
 
 export function Projects() {
