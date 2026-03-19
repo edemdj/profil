@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-/* â”€â”€ SCROLL REVEAL â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
+/* ── SCROLL REVEAL ─────────────────────────────────────── */
 .reveal {
   opacity: 0;
   transform: translateY(24px);
@@ -14,7 +14,7 @@
 .reveal-d2 { transition-delay: 0.2s; }
 .reveal-d3 { transition-delay: 0.3s; }
 
-/* â”€â”€ HERO ANIMATIONS â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
+/* ── HERO ANIMATIONS ───────────────────────────────────── */
 @keyframes slideUp {
   from { opacity: 0; transform: translateY(28px); }
   to   { opacity: 1; transform: translateY(0); }
@@ -29,7 +29,7 @@
 .delay-100 { animation-delay: 0.15s; }
 .delay-200 { animation-delay: 0.30s; }
 
-/* â”€â”€ SCROLL INDICATOR â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
+/* ── SCROLL INDICATOR ──────────────────────────────────── */
 .scroll-indicator {
   position: absolute;
   bottom: 2rem;
@@ -52,7 +52,7 @@
   background: linear-gradient(to bottom, rgba(255,255,255,0.55), transparent);
 }
 
-/* â”€â”€ PROJECT CARD HOVER â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
+/* ── PROJECT CARD HOVER ────────────────────────────────── */
 .project-card-hover {
   transition: transform 0.3s cubic-bezier(0.16,1,0.3,1),
               box-shadow 0.3s cubic-bezier(0.16,1,0.3,1);
@@ -76,14 +76,14 @@
 }
 .project-card-hover:hover::before { transform: scaleX(1); }
 
-/* â”€â”€ PROJECT IMAGE ZOOM â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
+/* ── PROJECT IMAGE ZOOM ────────────────────────────────── */
 .project-img-wrap { overflow: hidden; }
 .project-img-wrap img {
   transition: transform 0.5s cubic-bezier(0.16,1,0.3,1);
 }
 .project-img-wrap:hover img { transform: scale(1.05); }
 
-/* â”€â”€ SKILL CARD HOVER â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
+/* ── SKILL CARD HOVER ──────────────────────────────────── */
 .skill-card-hover {
   transition: transform 0.25s cubic-bezier(0.16,1,0.3,1),
               box-shadow 0.25s cubic-bezier(0.16,1,0.3,1);
@@ -93,7 +93,7 @@
   box-shadow: 0 12px 28px rgba(0,0,0,0.1) !important;
 }
 
-/* â”€â”€ NAV LINK UNDERLINE â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
+/* ── NAV LINK UNDERLINE ────────────────────────────────── */
 .nav-underline {
   position: relative;
 }
@@ -107,7 +107,7 @@
 }
 .nav-underline:hover::after { width: 100%; }
 
-/* â”€â”€ FADE-IN ANIMATION â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
+/* ── FADE-IN ANIMATION ─────────────────────────────────── */
 @keyframes fadeIn {
   from { opacity: 0; }
   to   { opacity: 1; }
@@ -119,4 +119,14 @@
 @keyframes heroZoom {
   from { transform: scale(1); }
   to   { transform: scale(1.08); }
+}
+
+/* ── SMOOTH SCROLL + HEADER OFFSET ─────────────────────── */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Compense la hauteur du header fixe (~70px) */
+section[id] {
+  scroll-margin-top: 72px;
 }

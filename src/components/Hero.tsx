@@ -7,7 +7,7 @@ export function Hero() {
     <section
       id="about"
       className="min-h-screen flex items-center justify-center relative overflow-hidden"
-      style={{ backgroundColor: '#000' }}
+      style={{ backgroundColor: '#f0ede8' }}
     >
       {/* Photo entière avec zoom continu en boucle */}
       <img
@@ -38,7 +38,7 @@ export function Hero() {
           Je crée des solutions innovantes et élégantes pour répondre aux besoins d'une collaboration.
         </p>
         <a
-          href="#projects"
+          href="#projects" onClick={(e) => { e.preventDefault(); const t = document.querySelector("#projects"); if(t) window.scrollTo({ top: (t as HTMLElement).getBoundingClientRect().top + window.scrollY - 72, behavior: "smooth" }); }}
           className="inline-flex items-center gap-2 bg-blue-600 text-white px-4 sm:px-6 py-3 rounded-full hover:bg-blue-700 active:scale-95 hover:scale-105 transition-transform duration-300 ease-in-out animate-slideUp delay-200"
         >
           Voir mes projets
